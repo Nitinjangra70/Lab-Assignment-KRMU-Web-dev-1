@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <h1>Nitin</h1>
+
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="hero">
+      <h2>Welcome to My Portfolio</h2>
+      <p>Hello,I'm excited to share my work and skill with you</p>
+
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="/image.jpg" alt="Portrait of Nitin" width="200" height="200">
+      <p> I'm Nitin.I am currently learning CSS. I enjoy solving problems and learning new technologies.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <article>   
+             <h3>Portfolio Website</h3>
+             <p>Personal site built with HTML, CSS, and JavaScript to showcase my work.</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h3>Task Manager App</h3>
+            <p>A productivity tool for managing daily tasks, built using React and Node.js.</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h3>Blog layout</h3>
+            <p>A responsive blog page built with HTML and CSS.</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <table border="1" cellpadding="8">
+        <thead>
+          <tr>
+            <th>skill</th>
+            <th>level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>html</td>
+            <td>beginner</td>
+          </tr>
+          <tr>
+            <td>css</td>
+            <td>beginner</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>beginner</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder=" enter Your full name" required>
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="enter your email" required>
+        <br>
+        <br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" placeholder=" write Your message here..." rows="5" required></textarea>
+        <br>
+        <br>
+        <button type="submit">Send </button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy;2025 My Portfolio | All Rights Reserved </p>
+    <p><a href="#hero">Back to top</a></p>
+  </footer>
+</body>
+
+</html>
